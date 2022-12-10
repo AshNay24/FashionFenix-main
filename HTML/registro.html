@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="follow,index" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fashion Fenix</title>
+
+    <meta
+      name="description"
+      content=" An Open Source Template for Login Page From Scratch Without Any CSS Framework"
+    />
+    <meta name="keywords" content="login page css, login template, login css, login form template" />
+
+  
+    <link rel="stylesheet" href="../shared/normalize.css" />
+    <link rel="stylesheet" href="../shared/additional.css" />
+    <link rel="stylesheet" href="../CSS/login.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-25065548-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-25065548-2');
+    </script>
+  </head>
+
+  <body>
+    <div class="logo-wrapper">
+      <img class="logo" alt="Logo" src="../image/logo.png" style="width: 150px; height: 150px;" />
+    </div>
+
+    <div class="content-body">
+      <div class="form-wrapper">
+        <h1 class="text-title">Bienvenidos a Fashion Fenix</h1>
+        <div class="text-register">Crea tu perfil aqui.</div>
+
+        <div class="field-group">
+          <input
+            class="input"
+            type="text"
+            id="txt-nombreusuario"
+            name="nombreusuario"
+            placeholder="Nombre"
+            required id="nombreusuario"
+            required pattern="[A-ZÑña-z0-9, ]{5,65}"
+          />
+
+          <input
+            class="input"
+            type="text"
+            id="txt-apellidousuario"
+            name="apellidousuario"
+            placeholder="Apellido"
+            required id="apellidousuario"
+          />
+          
+          <input
+            class="input"
+            type="text"
+            id="txt-email"
+            name="email"
+            placeholder="E-mail"
+            required id="email"
+          />
+
+          <input 
+          class="input" 
+          type="password" 
+          id="txt-password" 
+          name="password" 
+          placeholder="Password" 
+          required id="password"
+          />
+
+          <input 
+          class="input" 
+          type="number" 
+          id="txt-telefono" 
+          name="telefono" 
+          placeholder="Telefono" 
+          required id="telefono"
+          />
+
+        </div>
+
+        <div class="field-group">
+          <input class="btn-submit" type="submit" value="Registrarse" />
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>
