@@ -1,0 +1,8 @@
+build
+public
+
+
+.env.*
+.lintstagedrc
+.prettierignore
+.eslintignore
